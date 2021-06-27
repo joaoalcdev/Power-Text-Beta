@@ -1204,3 +1204,90 @@ transform: translate(-50%, -50%);
 .activeNav {
   color: #74DA27 !important;
 }
+.guia {
+  font-size: small !important;
+  color: #818a91 !important;
+}
+.cookies1 {
+  font-size: 25px !important;
+}
+.cookies2 {
+  font-size: 15px !important;
+  font-weight: 300 !important;
+  color: white !important;
+}
+
+
+
+/* Adblocker Detect  */
+.ad {
+  text-align: center;
+  background:  #FFF;
+  padding-top: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+/* background */
+.modal-fader {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 99998;
+  background: rgba(0,0,0,0.8);
+}
+/* janela popup */
+.modal-window {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 99999;
+  background: #36393F;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: sans-serif;
+  max-width: 400px;
+  min-width: 250px;
+  max-height: 400px;
+  min-height: 250px;
+  padding-top: 15px;
+  padding-bottom: 13px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.modal-window h2 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid #949292;
+  color: #fff;
+}
+.modal-window p {
+  font-size: 1rem;
+  margin-top: 10px !important;
+  margin-bottom: 0 !important;
+  line-height: 1.2rem;
+  color: #fff;
+}
+/* butantan */
+.modal-btn {
+  background: #74DA27;
+  border: none;
+  color: #fff;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: none;
+  border-radius: 3px;
+  text-decoration: none;
+  width: 100%;
+  margin-top: 20%;
+}
+.modal-btn:hover {
+  background: #8fee46;
+}
+/* End Adblocker Detect  */
