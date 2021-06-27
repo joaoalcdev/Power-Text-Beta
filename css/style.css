@@ -1220,15 +1220,15 @@ transform: translate(-50%, -50%);
 
 
 /* Adblocker Detect  */
-.ad {
+/* .ad {
   text-align: center;
   background:  #FFF;
   padding-top: 0;
   max-width: 100%;
   overflow: hidden;
-}
+} */
 /* background */
-.modal-fader {
+/* .modal-fader {
   display: none;
   position: fixed;
   top: 0;
@@ -1238,9 +1238,9 @@ transform: translate(-50%, -50%);
   width: 100%;
   z-index: 99998;
   background: rgba(0,0,0,0.8);
-}
+} */
 /* janela popup */
-.modal-window {
+/* .modal-window {
   display: none;
   position: fixed;
   top: 50%;
@@ -1271,9 +1271,9 @@ transform: translate(-50%, -50%);
   margin-bottom: 0 !important;
   line-height: 1.2rem;
   color: #fff;
-}
+} */
 /* butantan */
-.modal-btn {
+/* .modal-btn {
   background: #74DA27;
   border: none;
   color: #fff;
@@ -1289,5 +1289,5 @@ transform: translate(-50%, -50%);
 }
 .modal-btn:hover {
   background: #8fee46;
-}
+} */
 /* End Adblocker Detect  */
