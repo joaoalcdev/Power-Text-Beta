@@ -988,9 +988,12 @@ transform: translate(-50%, -50%);
   .card-tutorial {
     display: flex !important;
     flex-direction: row !important;
+    justify-content: center !important;
   }
   .card-no-bg {
     width: 45% !important;
+    display: flex !important;
+    justify-content: center !important;
   }
   #textbox {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
@@ -1002,7 +1005,7 @@ transform: translate(-50%, -50%);
     max-height: 404px;
     min-height: 404px;
     width: 100% !important;
-    min-width: 442px !important;
+    min-width: 300px !important;
     background-color: #303339 !important;
     border: 1 !important;
     border-color: rgb(29, 29, 29) !important;
@@ -1045,8 +1048,8 @@ transform: translate(-50%, -50%);
   border: none !important;
   width: 23% !important;
 
-  margin-left: 1% !important;
-  margin-right: 1% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 
