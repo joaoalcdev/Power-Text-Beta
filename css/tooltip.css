@@ -1,0 +1,146 @@
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 50px !important;
+  max-width: 50px !important;
+  background-color: #16161b;
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+}
+
+.menu-list {
+  display: block;
+  width: 100%;
+  padding-left: 0px;
+  padding-top: 5px;
+}
+
+.menu-list + .menu-list {
+  border-top: 1px solid #212025;
+  list-style: none !important;
+}
+
+.menu-sub-list {
+  display: none;
+  list-style: none !important;
+  padding: 8px;
+  background-color: #16161b;
+  border-radius: 10px;
+  position: absolute;
+  right: 100%;
+  z-index: 100;
+  width: 80px;
+  top: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu-sub-list:hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-item {
+  position: relative;
+  list-style: none !important;
+}
+
+.menu-button {
+  list-style: none !important;
+}
+
+.menu-button:hover + .menu-sub-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-button:hover svg {
+  stroke: green;
+}
+
+.menu-button svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  stroke: var(--color-text-primary-offset);
+}
+
+.menu-button svg:nth-of-type(2) {
+  margin-right: 0;
+  position: absolute;
+  right: 8px;
+}
+
+.menu-button--delete:hover {
+  color: var(--color-red);
+}
+
+.menu-button--delete:hover svg:first-of-type {
+  stroke: var(--color-red);
+}
+
+.menu-button--orange svg:first-of-type {
+  stroke: var(--color-orange);
+}
+
+.menu-button--green svg:first-of-type {
+  stroke: var(--color-green);
+}
+
+.menu-button--purple svg:first-of-type {
+  stroke: var(--color-purple);
+}
+
+.menu-button--black svg:first-of-type {
+  stroke: var(--color-black);
+}
+
+.menu-button--checked svg:nth-of-type(2) {
+  stroke: var(--color-purple);
+}
+
+@media screen and (max-width: 1198px) {
+  #textbox {
+    width: 85% !important;
+  }
+}
+
+@media screen and (max-width: 382px) {
+  #textbox {
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 298px) {
+  #textbox {
+    width: 75% !important;
+  }
+}
+
+@media screen and (max-width: 720px){
+  .card-tutorial{
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  .card-no-bg{
+    width: 45% !important;
+  }
+}
+/* emoji picker */
+/*# sourceMappingURL=tooltip.css.map */

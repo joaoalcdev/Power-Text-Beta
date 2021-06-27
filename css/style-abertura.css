@@ -1,0 +1,80 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.loader-wrapper {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #16161b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 999;
+}
+
+.raio {
+  width: 100vw;
+  height: 100vh;
+  background-color: #333333;
+  background-image: url(/img/bg.svg);
+  background-repeat: no-repeat;
+  background-size: auto 100px;
+  background-position: center center;
+  -webkit-animation: change 5s;
+          animation: change 5s;
+  -webkit-mask-image: url(/img/raio.svg);
+  mask-image: url(/img/raio.svg);
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center center;
+          mask-position: center center;
+  -webkit-mask-size: auto 100px;
+          mask-size: auto 100px;
+}
+
+@-webkit-keyframes change {
+  0% {
+    opacity: 0;
+    background-position: 50% 100%;
+  }
+}
+
+@keyframes change {
+  0% {
+    opacity: 0;
+    background-position: 50% 100%;
+  }
+}
+
+/* to the body element */
+.noscroll {
+  overflow: hidden !important;
+}
+
+.overlay {
+  position: fixed;
+  overflow-y: scroll;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+[aria-hidden="true"] {
+  display: none;
+}
+
+[aria-hidden="false"] {
+  display: block;
+}
+/*# sourceMappingURL=style-abertura.css.map */

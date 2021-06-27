@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"> <!-- icones bootstrap-->
+    <link rel="shortcut icon" href="img/favicon.svg" />                                   <!-- icone do site -->
+    <link rel="stylesheet" href="boxicons.min.css">                                       <!-- icones boxicons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"> <!-- icones boxicons -->
+    <script src="https://unpkg.com/feather-icons"></script>                               <!-- icones feather icos -->
+    <!-- fim import icons -->
+    
+    <!-- import style -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">          <!-- style do site-->
+    <link rel="stylesheet" type="text/css" href="css/tooltip.css">        <!-- style dos hover (sCSS)-->
+    <link rel="stylesheet" type="text/css" href="css/style-abertura.css"> <!-- style da loading screen-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- fim import style -->
+
+    <title> Power Text - Editor de texto para Instagram, Facebook e Twitter </title>
+
+</head>
+<body>
+
+
+<!-- INÍCIO NAV BAR -->
+<nav class="navbar sticky-top navbar-expand-lg bg-preto nav-topo">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><img src="img/logo-powertext.svg" alt="Editor de texto para Instagram, Facebook e Twitter" height="50px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+ <i class="fas fa-bars"></i>
+</button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto w-100 justify-content-end">
+        <li class="nav-item active">
+          <a class="nav-link activeNav" href="#" > Início </a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="modelosdetexto.html"> Modelos de Texto </a>
+           
+        
+              <li class="nav-item">
+                <a class="nav-link view-modal" href="#"> Redes Sociais </a>
+              </li>
+              <li class="nav-item btn-flags">
+                <a class="nav-link view-modal flags" href="en.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="English"> <img src="https://image.flaticon.com/icons/png/512/317/317350.png" width="30px"> </a>
+                <a class="nav-link view-modal flags" href="index.html"  data-bs-toggle="tooltip" data-bs-placement="bottom" title="Português"> <img src="https://image.flaticon.com/icons/png/512/330/330430.png" width="30px"> </a>
+              </li>
+              
+              
+      </ul>
+    </div> 
+  </div>
+</nav>
+<!-- FIM NAV BAR -->
+              
+              
+      </ul>
+    </div> 
+  </div>
+</nav>
+<!-- FIM NAV BAR -->
+
+
+<!-- INÍCIO REDES SOCIAIS -->
+<div class="popup">
+  <header class="redesocial">
+    <span class="redesocial2"> Siga-nos </span>
+    <div class="close"><i class="uil uil-times"></i></div>
+  </header>
+  <div class="content">
+    <ul class="iconsRedes">
+      <a href="https://www.instagram.com/powertext_net/" target="_blank"><i class="fab fa-instagram "></i></a>
+      <a href="#"><i class="fab fa-facebook-f "></i></a>
+      <a href="#"><i class="fab fa-twitter "></i></a>
+    </ul>
+  </div>
+</div>
+
+<script>
+  const viewBtn = document.querySelector(".view-modal"),
+  popup = document.querySelector(".popup"),
+  close = popup.querySelector(".close"),
+  field = popup.querySelector(".field");
+
+  viewBtn.onclick = ()=>{
+    popup.classList.toggle("show");
+  }
+  close.onclick = ()=>{
+    viewBtn.click();
+  }
+</script>
+<!-- FIM REDES SOCIAIS -->
+
+
+<!-- START BODY -->
+<div class="container">
+  <div class="row">
+
+    <div class="col-6">
+      <h1 class="branco"> Links pt-BR </h1>
+      <a class="branco" href="https://www.powertext.net"> https://www.powertext.net/ </a> </br>
+      <a class="branco" href="https://www.powertext.net/modelosdetexto.html"> https://www.powertext.net/modelosdetexto </a> </br>
+      <a class="branco" href="https://www.powertext.net/sobre.html"> https://www.powertext.net/sobre </a> </br>
+      <a class="branco" href="https://www.powertext.net/termos-de-uso.html"> https://www.powertext.net/termos-de-uso </a> </br> 
+      <a class="branco" href="https://www.powertext.net/politica-privacidade.html"> https://www.powertext.net/politica-privacidade </a> </br>
+      <a class="branco" href="https://www.powertext.net/mapa.html"> https://www.powertext.net/mapa </a> </br>
+
+      <h1 class="branco"> Links en-USA </h1>
+        <a class="branco" href="https://www.powertext.net/en"> https://www.powertext.net/en </a> </br>
+        <a class="branco" href="https://www.powertext.net/texttemplate.html"> https://www.powertext.net/texttemplate </a> </br>
+        <a class="branco" href="https://www.powertext.net/about.html"> https://www.powertext.net/about </a> </br>
+        <a class="branco" href="https://www.powertext.net/terms.html"> https://www.powertext.net/terms </a> </br> 
+        <a class="branco" href="https://www.powertext.net/policies-privacy.html"> https://www.powertext.net/policies-privacy </a> </br>
+        <a class="branco" href="https://www.powertext.net/sitemap.html"> https://www.powertext.net/sitemap </a> </br>
+      </div>
+
+  </div>
+</div>
+<!-- END BODY -->
+
+
+<!-- INÍCIO FOOTER -->
+<div class="img-rodape"></div>
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-sm-12 col-md-6">
+      <h6> Sobre </h6>
+      <p class="text-justify"> PowerText.net é uma iniciativa para contribuir com a criação de conteúdo nas mídias sociais. Aqui você pode criar textos e artigos personalizados para seus posts.
+      Oferecemos ferramentas capazes de alterar o estilo do texto que será inserido em suas legendas. </p>
+      </div>
+
+      
+      <div class="col-xs-6 col-md-3">
+        <h6> Links </h6>
+        <ul class="footer-links">
+          <li><a href="sobre.html"> Sobre </a></li>
+          <li><a href="termos-de-uso.html"> Termos de uso </a></li>
+          <li><a href="politica-privacidade.html"> Política de privacidade </a></li>
+          <li><a href="mapa.html" class="activeNav"> Mapa do site </a></li>
+          <li><a href="https://us1.list-manage.com/survey?u=4cd3333ac1ee31d3662dd17bd&id=0570e0bdfd" target="_blank"> Contato </a></li>
+          
+        </ul>
+      </div>
+  </div>
+
+  <hr>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text">Copyright &copy; 2021 Todos os direitos reservados 
+          <a href="index.html"> Power Text </a>
+        </p>
+      </div>
+
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <ul class="social-icons">
+          <li><a class="instagram" href="https://www.instagram.com/powertext_net/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+          <li><a class="facebook" href="#"><i class="fa fa-facebook" target="_blank"></i></a></li>
+          <li><a class="twitter" href="#"><i class="fa fa-twitter" target="_blank"></i></a></li>
+        </ul>
+      </div>
+      
+      
+    </div>
+  </div>
+</div>
+</footer>
+
+<!-- FIM FOOTER -->
+
+
+
+
+    <!-- IMPORT SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> <!-- redo button function import -->
+    <script type="text/javascript" src="/javascript/main.js"></script>
+    <script>feather.replace()</script>
+    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- FIM IMPORT SCRIPTS -->
+ 
+
+    <!-- SCRIPT EMOJI PICKER  -->
+    <script src="javascript/emojiPicker.js"></script>
+    <script>
+      (() => {
+        new EmojiPicker()
+      })()
+    </script>
+    <!-- SCRIPT EMOJI PICKER -->
+
+
+    <td><button id="save" onclick="loadFileAsText()"> </button><td></td> <!-- NAO REMOVER NUNCA, FUNÇÃO PRA FAZER FUNCIONAR O UNDO / REDO -->
+</body>
+</html>

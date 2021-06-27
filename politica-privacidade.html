@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"> <!-- icones bootstrap-->
+    <link rel="shortcut icon" href="img/favicon.svg" />                                   <!-- icone do site -->
+    <link rel="stylesheet" href="boxicons.min.css">                                       <!-- icones boxicons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"> <!-- icones boxicons -->
+    <script src="https://unpkg.com/feather-icons"></script>                               <!-- icones feather icos -->
+    <!-- fim import icons -->
+    
+    <!-- import style -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">          <!-- style do site-->
+    <link rel="stylesheet" type="text/css" href="css/tooltip.css">        <!-- style dos hover (sCSS)-->
+    <link rel="stylesheet" type="text/css" href="css/style-abertura.css"> <!-- style da loading screen-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- fim import style -->
+
+    <title> Power Text - Editor de texto para Instagram, Facebook e Twitter </title>
+
+</head>
+<body>
+
+
+<!-- INÍCIO NAV BAR -->
+<nav class="navbar sticky-top navbar-expand-lg bg-preto nav-topo">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><img src="img/logo-powertext.svg" alt="Editor de texto para Instagram, Facebook e Twitter" height="50px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+ <i class="fas fa-bars"></i>
+</button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto w-100 justify-content-end">
+        <li class="nav-item active">
+          <a class="nav-link activeNav" href="#" > Início </a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="modelosdetexto.html"> Modelos de Texto </a>
+           
+        
+              <li class="nav-item">
+                <a class="nav-link view-modal" href="#"> Redes Sociais </a>
+              </li>
+              <li class="nav-item btn-flags">
+                <a class="nav-link view-modal flags" href="en.html" data-bs-toggle="tooltip" data-bs-placement="bottom" title="English"> <img src="https://image.flaticon.com/icons/png/512/317/317350.png" width="30px"> </a>
+                <a class="nav-link view-modal flags" href="index.html"  data-bs-toggle="tooltip" data-bs-placement="bottom" title="Português"> <img src="https://image.flaticon.com/icons/png/512/330/330430.png" width="30px"> </a>
+              </li>
+              
+              
+      </ul>
+    </div> 
+  </div>
+</nav>
+<!-- FIM NAV BAR -->
+
+
+<!-- INÍCIO REDES SOCIAIS -->
+<div class="popup">
+  <header class="redesocial">
+    <span class="redesocial2"> Siga-nos </span>
+    <div class="close"><i class="uil uil-times"></i></div>
+  </header>
+  <div class="content">
+    <ul class="iconsRedes">
+      <a href="https://www.instagram.com/powertext_net/" target="_blank"><i class="fab fa-instagram "></i></a>
+      <a href="#"><i class="fab fa-facebook-f "></i></a>
+      <a href="#"><i class="fab fa-twitter "></i></a>
+    </ul>
+  </div>
+</div>
+
+<script>
+  const viewBtn = document.querySelector(".view-modal"),
+  popup = document.querySelector(".popup"),
+  close = popup.querySelector(".close"),
+  field = popup.querySelector(".field");
+
+  viewBtn.onclick = ()=>{
+    popup.classList.toggle("show");
+  }
+  close.onclick = ()=>{
+    viewBtn.click();
+  }
+</script>
+<!-- FIM REDES SOCIAIS -->
+
+
+
+<div class="container branco">
+    <div class="row">
+        <div class="col-10">
+
+
+<br/><br/>
+<h2 class="espacamento">Política de Privacidade</h2>
+<br/><br/>
+<div class="texto-branco">
+A sua privacidade é importante para nós. É política do Power Text respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar no site Power Text, e outros sites que possuímos e operamos.
+<br/><br/>
+Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como será usado.
+<br/><br/>
+Apenas retemos as informações coletadas pelo tempo necessário para fornecer o serviço solicitado. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis ​​para evitar perdas e roubos, bem como acesso, divulgação, cópia, uso ou modificação não autorizados.
+<br/><br/>
+Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.
+<br/><br/>
+O nosso site pode ter links para sites externos que não são operados por nós. Esteja ciente de que não temos controle sobre o conteúdo e práticas desses sites e não podemos aceitar responsabilidade por suas respectivas políticas de privacidade.
+<br/><br/>
+Você é livre para recusar a nossa solicitação de informações pessoais, entendendo que talvez não possamos fornecer alguns dos serviços desejados.
+<br/><br/>
+O uso continuado de nosso site será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais. Se você tiver alguma dúvida sobre como lidamos com dados do usuário e informações pessoais, entre em contacto connosco.
+</div>
+
+<br/><br/>
+<h5 class="espacamento">Política de Cookies Power Text</h5>
+<br/>
+<h6 class="espacamento">O que são cookies?</h6>
+<div class="texto-branco">
+Como é prática comum em quase todos os sites profissionais, este site usa cookies, que são pequenos arquivos baixados no seu computador, para melhorar sua experiência. Esta página descreve quais informações eles coletam, como as usamos e por que às vezes precisamos armazenar esses cookies. Também compartilharemos como você pode impedir que esses cookies sejam armazenados, no entanto, isso pode fazer o downgrade ou 'quebrar' certos elementos da funcionalidade do site.
+</div>
+
+<br/>
+<h6 class="espacamento">Como usamos os cookies?</h6>
+<div class="texto-branco">
+Utilizamos cookies por vários motivos, detalhados abaixo. Infelizmente, na maioria dos casos, não existem opções padrão do setor para desativar os cookies sem desativar completamente a funcionalidade e os recursos que eles adicionam a este site. É recomendável que você deixe todos os cookies se não tiver certeza se precisa ou não deles, caso sejam usados ​​para fornecer um serviço que você usa.
+</div>
+
+<br/>
+<h6 class="espacamento">Desativar cookies</h6>
+<div class="texto-branco">
+Você pode impedir a configuração de cookies ajustando as configurações do seu navegador (consulte a Ajuda do navegador para saber como fazer isso). Esteja ciente de que a desativação de cookies afetará a funcionalidade deste e de muitos outros sites que você visita. A desativação de cookies geralmente resultará na desativação de determinadas funcionalidades e recursos deste site. Portanto, é recomendável que você não desative os cookies.
+</div>
+
+<br/>
+<h6 class="espacamento">Cookies que definimos</h6>
+<div class="texto-branco">
+<li class="espacamento">Cookies relacionados à conta</li>
+
+Se você criar uma conta connosco, usaremos cookies para o gerenciamento do processo de inscrição e administração geral. Esses cookies geralmente serão excluídos quando você sair do sistema, porém, em alguns casos, eles poderão permanecer posteriormente para lembrar as preferências do seu site ao sair.
+
+<br/><br/>
+<li class="espacamento">Cookies relacionados ao login</li>
+
+Utilizamos cookies quando você está logado, para que possamos lembrar dessa ação. Isso evita que você precise fazer login sempre que visitar uma nova página. Esses cookies são normalmente removidos ou limpos quando você efetua logout para garantir que você possa acessar apenas a recursos e áreas restritas ao efetuar login.
+
+<br/><br/>
+<li class="espacamento">Cookies relacionados a boletins por e-mail</li>
+
+Este site oferece serviços de assinatura de boletim informativo ou e-mail e os cookies podem ser usados ​​para lembrar se você já está registrado e se deve mostrar determinadas notificações válidas apenas para usuários inscritos / não inscritos.
+
+<br/><br/>
+<li class="espacamento">Pedidos processando cookies relacionados</li>
+
+Este site oferece facilidades de comércio eletrônico ou pagamento e alguns cookies são essenciais para garantir que seu pedido seja lembrado entre as páginas, para que possamos processá-lo adequadamente.
+
+<br/><br/>
+<li class="espacamento">Cookies relacionados a pesquisas</li>
+
+Periodicamente, oferecemos pesquisas e questionários para fornecer informações interessantes, ferramentas úteis ou para entender nossa base de usuários com mais precisão. Essas pesquisas podem usar cookies para lembrar quem já participou numa pesquisa ou para fornecer resultados precisos após a alteração das páginas.
+
+<br/><br/>
+<li class="espacamento">Cookies relacionados a formulários</li>
+
+Quando você envia dados por meio de um formulário como os encontrados nas páginas de contacto ou nos formulários de comentários, os cookies podem ser configurados para lembrar os detalhes do usuário para correspondência futura.
+
+<br/><br/>
+<li class="espacamento">Cookies de preferências do site</li>
+
+Para proporcionar uma ótima experiência neste site, fornecemos a funcionalidade para definir suas preferências de como esse site é executado quando você o usa. Para lembrar suas preferências, precisamos definir cookies para que essas informações possam ser chamadas sempre que você interagir com uma página for afetada por suas preferências.
+</div>
+
+<br/><br/>
+<h6 class="espacamento">Cookies de Terceiros</h6>
+<br/>
+
+<div class="texto-branco">
+Em alguns casos especiais, também usamos cookies fornecidos por terceiros confiáveis. A seção a seguir detalha quais cookies de terceiros você pode encontrar através deste site.
+
+<li class="espacamento">Este site usa o Google Analytics, que é uma das soluções de análise mais difundidas e confiáveis ​​da Web, para nos ajudar a entender como você usa o site e como podemos melhorar sua experiência. Esses cookies podem rastrear itens como quanto tempo você gasta no site e as páginas visitadas, para que possamos continuar produzindo conteúdo atraente.
+</li>
+    Para mais informações sobre cookies do Google Analytics, consulte a página oficial do Google Analytics.
+
+<li class="espacamento">As análises de terceiros são usadas para rastrear e medir o uso deste site, para que possamos continuar produzindo conteúdo atrativo. Esses cookies podem rastrear itens como o tempo que você passa no site ou as páginas visitadas, o que nos ajuda a entender como podemos melhorar o site para você.
+</li>
+
+<li class="espacamento">Periodicamente, testamos novos recursos e fazemos alterações subtis na maneira como o site se apresenta. Quando ainda estamos testando novos recursos, esses cookies podem ser usados ​​para garantir que você receba uma experiência consistente enquanto estiver no site, enquanto entendemos quais otimizações os nossos usuários mais apreciam.
+</li>
+
+<li class="espacamento">À medida que vendemos produtos, é importante entendermos as estatísticas sobre quantos visitantes de nosso site realmente compram e, portanto, esse é o tipo de dados que esses cookies rastrearão. Isso é importante para você, pois significa que podemos fazer previsões de negócios com precisão que nos permitem analizar nossos custos de publicidade e produtos para garantir o melhor preço possível.
+</li>
+
+<li class="espacamento">O serviço Google AdSense que usamos para veicular publicidade usa um cookie DoubleClick para veicular anúncios mais relevantes em toda a Web e limitar o número de vezes que um determinado anúncio é exibido para você.
+</li>
+
+<li class="espacamento">Para mais informações sobre o Google AdSense, consulte as FAQs oficiais sobre privacidade do Google AdSense.
+</li>
+
+<li class="espacamento">Utilizamos anúncios para compensar os custos de funcionamento deste site e fornecer financiamento para futuros desenvolvimentos. Os cookies de publicidade comportamental usados ​​por este site foram projetados para garantir que você forneça os anúncios mais relevantes sempre que possível, rastreando anonimamente seus interesses e apresentando coisas semelhantes que possam ser do seu interesse.
+</li>
+
+<li class="espacamento">Vários parceiros anunciam em nosso nome e os cookies de rastreamento de afiliados simplesmente nos permitem ver se nossos clientes acessaram o site através de um dos sites de nossos parceiros, para que possamos creditá-los adequadamente e, quando aplicável, permitir que nossos parceiros afiliados ofereçam qualquer promoção que pode fornecê-lo para fazer uma compra.
+</li>
+</div>
+
+
+<br/><br/>
+<h6 class="espacamento">Compromisso do Usuário</h6>
+
+<div class="texto-branco">
+O usuário se compromete a fazer uso adequado dos conteúdos e da informação que o Power Text oferece no site e com caráter enunciativo, mas não limitativo:
+
+<li class="espacamento">A) Não se envolver em atividades que sejam ilegais ou contrárias à boa fé a à ordem pública;
+</li>
+
+<li class="espacamento">B) Não difundir propaganda ou conteúdo de natureza racista ou xenofóbica, casas de apostas legais, jogos de sorte e azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou contra os direitos humanos;
+</li>
+
+<li class="espacamento">C) Não causar danos aos sistemas físicos (hardwares) e lógicos (softwares) do Power Text, de seus fornecedores ou terceiros, para introduzir ou disseminar vírus informáticos ou quaisquer outros sistemas de hardware ou software que sejam capazes de causar danos anteriormente mencionados.
+</li>
+</div>
+
+
+<br/><br/>
+<h6 class="espacamento">Mais informações</h6>
+<div class="texto-branco">
+Esperemos que esteja esclarecido e, como mencionado anteriormente, se houver algo que você não tem certeza se precisa ou não, geralmente é mais seguro deixar os cookies ativados, caso interaja com um dos recursos que você usa em nosso site.
+
+Esta política é efetiva a partir de Abril/2021.
+</div>
+
+
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- INÍCIO FOOTER -->
+<div class="img-rodape"></div>
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-sm-12 col-md-6">
+      <h6> Sobre </h6>
+      <p class="text-justify"> PowerText.net é uma iniciativa para contribuir com a criação de conteúdo nas mídias sociais. Aqui você pode criar textos e artigos personalizados para seus posts.
+      Oferecemos ferramentas capazes de alterar o estilo do texto que será inserido em suas legendas. </p>
+      </div>
+
+      
+      <div class="col-xs-6 col-md-3">
+        <h6> Links </h6>
+        <ul class="footer-links">
+          <li><a href="sobre.html"> Sobre </a></li>
+          <li><a href="termos-de-uso.html"> Termos de uso </a></li>
+          <li><a href="politica-privacidade.html" class="activeNav"> Política de privacidade </a></li>
+          <li><a href="mapa.html"> Mapa do site </a></li>
+          <li><a href="https://us1.list-manage.com/survey?u=4cd3333ac1ee31d3662dd17bd&id=0570e0bdfd" target="_blank"> Contato </a></li>
+          
+        </ul>
+      </div>
+  </div>
+
+  <hr>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text">Copyright &copy; 2021 Todos os direitos reservados 
+          <a href="https://www.powertext.net/"> Power Text </a>
+        </p>
+      </div>
+
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <ul class="social-icons">
+          <li><a class="instagram" href="https://www.instagram.com/powertext_net/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+          <li><a class="facebook" href="#"><i class="fa fa-facebook" target="_blank"></i></a></li>
+          <li><a class="twitter" href="#"><i class="fa fa-twitter" target="_blank"></i></a></li>
+        </ul>
+      </div>
+      
+      
+    </div>
+  </div>
+</div>
+</footer>
+
+<!-- FIM FOOTER -->
+
+
+
+
+    <!-- IMPORT SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> <!-- redo button function import -->
+    <script type="text/javascript" src="/javascript/main.js"></script>
+    <script>feather.replace()</script>
+    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- FIM IMPORT SCRIPTS -->
+ 
+
+    <!-- SCRIPT EMOJI PICKER  -->
+    <script src="javascript/emojiPicker.js"></script>
+    <script>
+      (() => {
+        new EmojiPicker()
+      })()
+    </script>
+    <!-- SCRIPT EMOJI PICKER -->
+
+
+    <td><button id="save" onclick="loadFileAsText()"> </button><td></td> <!-- NAO REMOVER NUNCA, FUNÇÃO PRA FAZER FUNCIONAR O UNDO / REDO -->
+</body>
+</html>
