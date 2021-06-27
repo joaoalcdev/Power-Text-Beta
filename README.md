@@ -1,7 +1,7 @@
 # Power Text // Text Editor Tool
 # <h3>Text editor for Instagram, Facebook and Twitter ・PowerText ・Project Status {Online - II}<h3>
 
- <h3><a href="https://joao-alc.github.io/Power-Text/"> Click here to see ・ [DEMO GITHUB]<a><h3>
+ <h3><a href="https://joao-alc.github.io/Power-Text/index.html"> Click here to see ・ [DEMO GITHUB]<a><h3>
  <h3><a href="https://powertext.net/"> Click here to see ・ [DEMO ONLINE HOST]<a><h3>
 
 
